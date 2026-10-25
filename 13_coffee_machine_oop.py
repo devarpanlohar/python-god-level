@@ -70,7 +70,7 @@ money_machine = MoneyMachine()
 
 is_on = True
 while is_on:
-    print("\n---VIRTUAL CLI COFFREE MACHINE---")
+    print("\n---VIRTUAL COFFEE MACHINE---")
     choice = input(f"What would you like? ({menu.get_items()}): ").lower()
     if len(choice) < 1 or not choice.isalpha():
         print("Invalid input! Try again.")
